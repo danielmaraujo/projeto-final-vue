@@ -1,13 +1,15 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomePage from '../pages/HomePage'
-import PaisesCrud from '../pages/PaisesCrud'
+import CidadesCrud from '../pages/CidadesCrud'
+import EstadosCrud from '../pages/EstadosCrud'
 
 Vue.use(VueRouter)
 
 const routes = [
   { path: '/',      name: 'HomePage',    component: HomePage   },
-  { path: '/paises', name: 'PaisesCrud', component: PaisesCrud }
+  { path: '/cidades', name: 'CidadesCrud', component: CidadesCrud },
+  { path: '/estados', name: 'EstadosCrud', component: EstadosCrud }
 ]
 
 const router = new VueRouter({

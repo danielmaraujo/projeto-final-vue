@@ -1,19 +1,45 @@
 {
-  "paises": [
+  "cidades": [
     {
       "id": 1,
-      "nome": "Brasil",
-      "capital": "Brasília"
+      "nome": "Campos dos Goytacazes",
+      "estado": "Rio de Janeiro",
+      "pais": "Brasil",
+      "num_habitantes": 514643
     },
     {
       "id": 2,
-      "nome": "França",
-      "capital": "Paris"
+      "nome": "São Paulo",
+      "estado": "São Paulo",
+      "pais": "Brasil",
+      "num_habitantes": 12396372
+    },
+    {
+      "id": 2,
+      "nome": "Nova Iorque",
+      "estado": "Nova Iorque",
+      "pais": "Estados Unidos",
+      "num_habitantes": 8804190
+    }
+  ],
+  "estados": [
+    {
+      "id": 1,
+      "nome": "Rio de Janeiro",
+      "capital": "Rio de Janeiro",
+      "pais": "Brasil"
+    },
+    {
+      "id": 2,
+      "nome": "California",
+      "capital": "Sacramento",
+      "pais": "Estados Unidos"
     },
     {
       "id": 3,
-      "nome": "Argentina",
-      "capital": "Buenos Aires"
+      "nome": "Ontario",
+      "capital": "Toronto",
+      "pais":"Canadá"
     }
   ]
 }
